@@ -22,6 +22,7 @@
 | **Portfolio** | ✅ Live | [abdalkader.dev](https://abdalkader.dev) | My main portfolio site showcasing projects and skills |
 | **Component Library** | ✅ Live | [storybook.abdalkader.dev](https://storybook.abdalkader.dev) | React component library with Storybook documentation |
 | **Tech Blog** | ✅ Live | [blog.abdalkader.dev](https://blog.abdalkader.dev) | Technical writings and tutorials |
+| **Quantum Animation** | ✅ Live | [quantumanim.abdalkader.dev](https://quantumanim.abdalkader.dev) | Interactive quantum physics animations and visualizations |
 | **History Museum** | 🚧 Building | [history.abdalkader.dev](https://history.abdalkader.dev) | Programming language evolution showcase |
 
 ## 💻 Tech Stack
@@ -90,6 +91,7 @@
 - **Portfolio**: [abdalkader.dev](https://abdalkader.dev)
 - **Components**: [storybook.abdalkader.dev](https://storybook.abdalkader.dev)  
 - **Blog**: [blog.abdalkader.dev](https://blog.abdalkader.dev)
+- **Quantum Animation**: [quantumanim.abdalkader.dev](https://quantumanim.abdalkader.dev)
 - **History Museum**: [history.abdalkader.dev](https://history.abdalkader.dev) 🚧
 
 ## 💰 You can help me by Donating
