@@ -1,0 +1,70 @@
+{
+  "name": "@abdalkader/your-project",
+  "version": "1.0.0",
+  "description": "Clear, concise project description that explains what this project does",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "nextjs",
+    "components",
+    "abdalkader",
+    "frontend",
+    "web"
+  ],
+  "author": {
+    "name": "Abdalkader",
+    "email": "contact@abdalkader.dev",
+    "url": "https://abdalkader.dev"
+  },
+  "license": "MIT",
+  "homepage": "https://your-project.abdalkader.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abdalkaderdev/your-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdalkaderdev/your-repo/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
