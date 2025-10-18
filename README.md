@@ -1,5 +1,5 @@
 <!-- Header Image -->
-![Header](https://github.com/Abdalkaderdev/abdalkaderdev/blob/main/.github/assets/about2.png)
+![Header](https://github.com/Abdalkaderdev/abdalkaderdev/blob/main/about2.png)
 
 # 💫 About Me
 🔭 I'm currently working on **AI Applications** and building a comprehensive tech ecosystem<br>
