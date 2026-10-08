@@ -126,8 +126,11 @@ Cloudflare · AWS (boto3) · Vercel
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdalkaderdev&layout=compact&langs_count=8&hide_border=true&bg_color=0a0908&title_color=f44e00&text_color=a8a8a8" alt="Top languages" />
 </p>
 
-**6,300+** contributions in the last year · **41** repositories with my commits ·
-**176** repositories · **6** organisations · **28** repos as an outside collaborator
+**6,800+** contributions in the last year · **47** repositories with my commits ·
+**188** repositories · **6** organisations · **28** repos as an outside collaborator
+
+**483** pull requests opened, **445** merged — most of them in Mount Seir Tech's ParsaLink
+monorepo, raised and reviewed like any other team's.
 
 Heaviest: Disciple One **1,114** · ParsaLink **495** · godfocus **377** · via-mobile **369** ·
 Godfocus-api **189** · godfocus-mobile **159**
