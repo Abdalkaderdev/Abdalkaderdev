@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="banner.png" alt="Abdalkader Alhamoud — full-stack and AI engineer, Erbil, Kurdistan Region" width="100%" />
+  <img src="https://raw.githubusercontent.com/Abdalkaderdev/Abdalkaderdev/main/banner.svg" alt="Abdalkader Alhamoud — full-stack and AI engineer, Erbil, Kurdistan Region" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://abdalkader.dev"><b>abdalkader.dev</b></a> ·
-  <a href="https://www.linkedin.com/in/abdalkaderdev">LinkedIn</a> ·
-  <a href="mailto:hello@abdalkader.dev">hello@abdalkader.dev</a>
+  <a href="https://abdalkader.dev"><b>abdalkader.dev</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/abdalkaderdev">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:hello@abdalkader.dev">hello@abdalkader.dev</a> &nbsp;·&nbsp;
+  <a href="https://instagram.com/abdalkader.dev">Instagram</a>
 </p>
 
 ---
@@ -21,40 +22,57 @@ Also with **Mount Seir Tech**, **Disciple One**, **Natuzzi Erbil** and **Real Ho
 
 ## What I'm building
 
-### [GodFocus](https://platform.godfocus.io) — Bible search + RAG as a service
+<table>
+<tr><td width="50%" valign="top">
+
+### [GodFocus](https://platform.godfocus.io)
+**Bible search + RAG as a service**
 
 The models are mine, not rented. A **QLoRA** fine-tune, preference-aligned with **DPO**, adapters
-merged and scored through a dedicated eval harness. Alongside it a custom **cross-encoder
-reranker** trained with sentence-transformers and PyTorch, then exported to **ONNX** so it runs
-inline in the request path instead of adding a network hop — cross-encoders rerank far better
-than bi-encoders, and that export is what makes the accuracy affordable at request time. All of
-it over a **pgvector** retrieval layer.
+merged and scored through a dedicated eval harness. Alongside it a custom **cross-encoder reranker**
+trained with sentence-transformers and PyTorch, then exported to **ONNX** so it runs inline in the
+request path instead of adding a network hop. All over a **pgvector** retrieval layer.
 
-`Python` · `PyTorch` · `QLoRA` · `DPO` · `ONNX Runtime` · `pgvector` · `Ollama` — six repos: API, web, mobile, sites, docs
+`PyTorch` `QLoRA` `DPO` `ONNX` `pgvector` `Ollama`
 
-### [ParsaLink](https://parsalink.io) — AI CRM · *Mount Seir Tech*
+</td><td width="50%" valign="top">
+
+### [ParsaLink](https://parsalink.io)
+**AI CRM · Mount Seir Tech**
 
 **OpenAI, Anthropic and Google Gemini SDKs running side by side** in one Django 5 + DRF backend,
 with an **MCP server** so agents can drive the CRM directly. Infrastructure is code: **Terraform**
-across Cloudflare and Hostinger, managing DNS and preview environments. Plus a SvelteKit
-marketing site and an Expo mobile CRM with biometric auth and offline-first caching.
+across Cloudflare and Hostinger, managing DNS and preview environments. Plus a SvelteKit site and
+an Expo mobile CRM with biometric auth.
 
-`Django` · `DRF` · `PostgreSQL` · `Terraform` · `MCP` · `boto3` · `SvelteKit` · `Expo` — 495 commits
+`Django` `DRF` `PostgreSQL` `Terraform` `MCP` `Expo`
 
-### [VIA](https://viaapp.life) + [Disciple One](https://discipleone.life) — live on the App Store
+</td></tr>
+<tr><td width="50%" valign="top">
 
-An eight-repo platform — API, web, admin, church dashboard, mobile, SDK, types, docs —
-**1,114 commits**. The app is React Native, but the interesting part is native: I wrote the
-**Live Activity and Dynamic Island** widget in Swift with ActivityKit and WidgetKit, plus two
-Expo native modules to bridge it to JS. Live Activities render as snapshots, so the animation
-has to be update-driven rather than a loop — that constraint shapes the whole widget.
+### [VIA](https://viaapp.life) + [Disciple One](https://discipleone.life)
+**Live on the App Store**
 
-`React Native` · `Expo` · `Swift` · `SwiftUI` · `ActivityKit` · `WidgetKit` · `EAS` · `Sentry` · `RevenueCat`
+Eight repos — API, web, admin, church dashboard, mobile, SDK, types, docs — **1,114 commits**. The
+app is React Native, but the interesting part is native: I wrote the **Live Activity and Dynamic
+Island** widget in Swift with ActivityKit and WidgetKit, plus two Expo native modules to bridge it
+to JS. Live Activities render as snapshots, so the animation has to be update-driven rather than a
+loop — that constraint shapes the whole widget.
 
-### [SoapBox](https://soapboxsuperapp.com) — platform engineering
+`React Native` `Swift` `SwiftUI` `ActivityKit` `WidgetKit` `EAS`
+
+</td><td width="50%" valign="top">
+
+### [SoapBox](https://soapboxsuperapp.com)
+**Platform engineering**
 
 SDK, [developer portal](https://builder.soapboxsuperapp.com) and cloud console — the surfaces
 *other* engineers build against. Fine-tuned LLMs for product-specific use cases.
+
+`React` `Node.js` `TypeScript` `LLM fine-tuning`
+
+</td></tr>
+</table>
 
 <br />
 
@@ -98,13 +116,27 @@ Cloudflare · AWS (boto3) · Vercel
 
 <br />
 
-## By the numbers
+## The numbers
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdalkaderdev&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0908&title_color=f44e00&icon_color=fa7300&text_color=a8a8a8" alt="GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=Abdalkaderdev&hide_border=true&background=0a0908&ring=f44e00&fire=fa7300&currStreakLabel=f44e00&sideLabels=a8a8a8&dates=787878&currStreakNum=f8f8f8&sideNums=f8f8f8&stroke=252525" alt="Streak" />
+</p>
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdalkaderdev&layout=compact&langs_count=8&hide_border=true&bg_color=0a0908&title_color=f44e00&text_color=a8a8a8" alt="Top languages" />
+</p>
 
 **6,300+** contributions in the last year · **41** repositories with my commits ·
 **176** repositories · **6** organisations · **28** repos as an outside collaborator
 
 Heaviest: Disciple One **1,114** · ParsaLink **495** · godfocus **377** · via-mobile **369** ·
 Godfocus-api **189** · godfocus-mobile **159**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abdalkaderdev/Abdalkaderdev/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abdalkaderdev/Abdalkaderdev/output/snake-light.svg" />
+  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/Abdalkaderdev/Abdalkaderdev/output/snake-dark.svg" width="100%" />
+</picture>
 
 <br />
 
@@ -119,8 +151,8 @@ The telecom years are why I think about uptime before features.
 ---
 
 <p align="center">
-  <a href="https://abdalkader.dev">abdalkader.dev</a> ·
-  <a href="https://instagram.com/abdalkader.dev">Instagram</a> ·
-  <a href="https://tiktok.com/@Abdalkader.dev">TikTok</a> ·
+  <a href="https://abdalkader.dev">abdalkader.dev</a> &nbsp;·&nbsp;
+  <a href="https://instagram.com/abdalkader.dev">Instagram</a> &nbsp;·&nbsp;
+  <a href="https://tiktok.com/@Abdalkader.dev">TikTok</a> &nbsp;·&nbsp;
   <a href="https://buymeacoffee.com/abdalkader.dev">Buy me a coffee</a>
 </p>
