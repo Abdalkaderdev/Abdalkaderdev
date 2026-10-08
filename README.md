@@ -119,7 +119,7 @@ Cloudflare · AWS (boto3) · Vercel
 ## The numbers
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdalkaderdev&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0908&title_color=f44e00&icon_color=fa7300&text_color=a8a8a8" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdalkaderdev&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0a0908&title_color=f44e00&icon_color=fa7300&text_color=a8a8a8&cache_seconds=86400" alt="GitHub stats" />
   <img height="165" src="https://streak-stats.demolab.com/?user=Abdalkaderdev&hide_border=true&background=0a0908&ring=f44e00&fire=fa7300&currStreakLabel=f44e00&sideLabels=a8a8a8&dates=787878&currStreakNum=f8f8f8&sideNums=f8f8f8&stroke=252525" alt="Streak" />
 </p>
 <p align="center">
